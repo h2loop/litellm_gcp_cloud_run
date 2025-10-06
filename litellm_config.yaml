@@ -1,16 +1,9 @@
-general_settings:
-  database_connection_pool_limit: 20
-  
 model_list: 
   - model_name: qwen/qwen3-coder-480b-a35b-instruct-maas
     litellm_params: 
       model: vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas
 
 litellm_settings:
-  drop_params: True
-  success_callback: ["prometheus"]
-  failure_callback: ["prometheus"]
-  service_callback: ["prometheus_system"]
   vertex_project: "h2loop-prod"
   vertex_location: "us-south1" # proj location
   # Vertex credentials not required if service account being used is correct in GCR.
