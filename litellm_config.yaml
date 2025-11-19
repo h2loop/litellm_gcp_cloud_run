@@ -2,6 +2,9 @@ model_list:
   - model_name: h2loop/h2loop-coder-0-1
     litellm_params: 
       model: vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas
+  - model_name: h2loop/h2loop-coder-0-1-uav
+    litellm_params: 
+      model: vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas
 
 litellm_settings:
   vertex_project: "h2loop-prod"
