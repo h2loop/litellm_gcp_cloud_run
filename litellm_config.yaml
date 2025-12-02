@@ -11,7 +11,7 @@ model_list:
     litellm_params: 
       model: vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas
       vertex_location: "us-south1" # proj location
-  - model_name: h2loop/mimimax-m2
+  - model_name: h2loop/minimax-m2
     litellm_params: 
       model: vertex_ai/minimaxai/minimax-m2-maas
       vertex_location: "global" # proj location
