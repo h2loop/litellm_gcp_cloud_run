@@ -5,6 +5,9 @@ model_list:
   - model_name: h2loop/h2loop-coder-instruct
     litellm_params: 
       model: vertex_ai/qwen/qwen3-coder-480b-a35b-instruct-maas
+  - model_name: kimi/kimi-k2-thinking-maas
+    litellm_params: 
+      model: vertex_ai/kimi/kimi-k2-thinking-maas
 
 litellm_settings:
   vertex_project: "h2loop-prod"
