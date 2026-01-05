@@ -8,6 +8,7 @@ model_list:
   - model_name: moonshotai/kimi-k2-thinking-maas
     litellm_params: 
       model: vertex_ai/moonshotai/kimi-k2-thinking-maas
+      vertex_location: "global"
 
 litellm_settings:
   vertex_project: "h2loop-prod"
