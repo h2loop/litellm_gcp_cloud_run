@@ -11,7 +11,7 @@ model_list:
 
 litellm_settings:
   vertex_project: "h2loop-prod"
-  vertex_location: "global" # proj location
+  vertex_location: "us-south1" # proj location
   # Vertex credentials not required if service account being used is correct in GCR.
 
 
