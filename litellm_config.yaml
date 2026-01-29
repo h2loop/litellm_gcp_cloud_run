@@ -13,6 +13,10 @@ model_list:
     litellm_params: 
       model: vertex_ai/deepseek-ai/deepseek-v3.2-maas
       vertex_location: "global"
+  - model_name: h2loop/coder-mini
+    litellm_params: 
+      model: vertex_ai/minimaxai/minimax-m2-maas
+      vertex_location: "global"
 
 litellm_settings:
   vertex_project: "h2loop-prod"
