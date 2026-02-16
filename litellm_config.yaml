@@ -17,9 +17,9 @@ model_list:
     litellm_params: 
       model: vertex_ai/minimaxai/minimax-m2-maas
       vertex_location: "global"
-  - model_name: vertex_ai/glm/glm-5-maas
+  - model_name: vertex_ai/zai-org/glm-5-maas
     litellm_params: 
-      model: vertex_ai/glm/glm-5-maas
+      model: vertex_ai/zai-org/glm-5-maas
       vertex_location: "global"
 
 litellm_settings:
