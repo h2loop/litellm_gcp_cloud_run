@@ -24,11 +24,9 @@ model_list:
   - model_name: moonshotai/kimi-k2.5
     litellm_params: 
       model: openrouter/moonshotai/kimi-k2.5
-      api_key: "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"
   - model_name: minimax/minimax-m2.5
     litellm_params: 
       model: openrouter/minimax/minimax-m2.5
-      api_key: "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"
 
 litellm_settings:
   vertex_project: "h2loop-prod"
