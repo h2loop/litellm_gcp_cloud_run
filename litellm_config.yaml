@@ -44,7 +44,7 @@ model_list:
   - model_name: mistral/mistral-ocr-2505
     litellm_params: 
       model: vertex_ai/mistral/mistral-ocr-2505
-      vertex_location: "global"
+      vertex_location: "us-central1"
     model_info:
       mode: ocr
 
