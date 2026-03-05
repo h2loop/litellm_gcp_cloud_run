@@ -45,6 +45,8 @@ model_list:
     litellm_params: 
       model: vertex_ai/mistral/mistral-ocr-2505
       vertex_location: "global"
+    model_info:
+      mode: ocr
 
 litellm_settings:
   vertex_project: "h2loop-prod"
