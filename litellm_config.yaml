@@ -41,12 +41,6 @@ model_list:
       model: openrouter/qwen/qwen3.5-plus-02-15
       api_key: os.environ/OPENROUTER_KEY
       api_base: "https://openrouter.ai/api/v1"
-  - model_name: mistral/mistral-ocr-2505
-    litellm_params: 
-      model: vertex_ai/mistral/mistral-ocr-2505
-      vertex_location: "us-central1"
-    model_info:
-      mode: ocr
 
 litellm_settings:
   vertex_project: "h2loop-prod"
@@ -54,3 +48,5 @@ litellm_settings:
   # Vertex credentials not required if service account being used is correct in GCR.
 
 
+general_settings:
+  master_key: "sk-1234"
