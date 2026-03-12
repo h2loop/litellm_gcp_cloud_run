@@ -41,7 +41,10 @@ model_list:
       model: openrouter/qwen/qwen3.5-plus-02-15
       api_key: os.environ/OPENROUTER_KEY
       api_base: "https://openrouter.ai/api/v1"
-
+  - model_name: gemini/gemini-3.1-flash-image-preview
+    litellm_params:
+      model: vertex_ai/gemini/gemini-3.1-flash-image-preview
+      
 litellm_settings:
   vertex_project: "h2loop-prod"
   vertex_location: "us-south1" # proj location
