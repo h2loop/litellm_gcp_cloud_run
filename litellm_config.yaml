@@ -45,13 +45,13 @@ model_list:
     litellm_params:
       model: vertex_ai/gemini/gemini-3.1-flash-image-preview
       vertex_location: "global"
-   - model_name: nvidia/nemotron-3-nano-30b                                                                                                                                                                           
-     litellm_params:
-      model: vertex_ai/nvidia-nemotron-3-nano-30b-a3b-bf16                                                                                                                                                           
-      vertex_project: "h2loop-training"                     
-      vertex_location: "asia-southeast1"                                                                                                                                                                             
+  - model_name: nvidia/nemotron-3-nano-30b
+    litellm_params:
+      model: vertex_ai/nvidia-nemotron-3-nano-30b-a3b-bf16
+      vertex_project: "h2loop-training"
+      vertex_location: "asia-southeast1"
       vertex_ai_endpoint_id: "mg-endpoint-7b5cf709-1c23-4455-83a8-64fa9c173ab8"
-
+   
 litellm_settings:
   vertex_project: "h2loop-prod"
   vertex_location: "us-south1" # proj location
