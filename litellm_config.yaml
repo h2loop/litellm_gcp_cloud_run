@@ -47,7 +47,7 @@ model_list:
       vertex_location: "global"
   - model_name: nvidia/nemotron-3-nano-30b
     litellm_params:
-      model: vertex_ai/nvidia-nemotron-3-nano-30b-a3b-bf16
+      model: vertex_ai_endpoint/nvidia-nemotron-3-nano-30b-a3b-bf16
       vertex_project: "h2loop-training"
       vertex_location: "asia-southeast1"
       vertex_ai_endpoint_id: "mg-endpoint-7b5cf709-1c23-4455-83a8-64fa9c173ab8"
