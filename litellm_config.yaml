@@ -51,6 +51,10 @@ model_list:
       vertex_project: "h2loop-training"
       vertex_location: "asia-southeast1"
       vertex_ai_endpoint_id: "mg-endpoint-7b5cf709-1c23-4455-83a8-64fa9c173ab8"
+  - model_name: google/gemma-4-26b-a4b-it                                                                                                                                                                          
+    litellm_params:                                                                                                                                                                                                
+      model: vertex_ai/gemma-4-26b-a4b-it-maas                                                                                                                                                                     
+      vertex_location: "global"
    
 litellm_settings:
   vertex_project: "h2loop-prod"
